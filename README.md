@@ -1,2 +1,2 @@
-# Online-Computer-parts-management-System-OOP
+# Online Computer parts management System-OOP
 Screenshots of my web app
