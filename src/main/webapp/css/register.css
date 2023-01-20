@@ -1,0 +1,170 @@
+    .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .form-container {
+        position: relative;
+        width: 600px;
+        margin: 0 auto;
+        padding: 45px 50px;
+        background-color: white;
+        border-radius: 50px;
+        background: #ffffff;
+        box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    }
+    
+    .form-container {
+        position: relative;
+        vertical-align: middle;
+    }
+    
+    .half-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+    }
+    
+    .half-container>.half-column {
+        width: 49%;
+        grid-template-columns: 20% 80%;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login-form {
+        align-items: flex-start;
+    }
+    
+    .input-field {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        margin: 10px 0;
+        border: 1px solid #E1E1E1;
+        border-radius: 55px;
+        display: grid;
+        grid-template-columns: 10% 85%;
+        padding: 0 .4rem;
+        position: relative;
+    }
+    
+    .input-field i {
+        text-align: center;
+        line-height: 50px;
+        color: #acacac;
+        font-size: 1.1rem;
+    }
+    
+    .input-field:focus-within {
+        border: 1px solid var(--btn-hover);
+    }
+    
+    .input-field input,
+    textarea {
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #333;
+    }
+    
+    .input-field select {
+        outline: none;
+        border: none;
+        background: none;
+    }
+    
+    .input-field input::placeholder {
+        color: #aaa;
+    }
+    
+    .input-field input:focus::placeholder {
+        color: #333;
+    }
+    
+    .show-pw-field label {
+        position: relative;
+        left: 0;
+    }
+    
+    .input-field .fa-eye {
+        position: absolute;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+    
+    .submit {
+        display: flex;
+        justify-content: center;
+    }
+    /* Login */
+    
+    .login-card {
+        padding: 30px;
+    }
+    
+    .login-btn {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    form>p {
+        margin-top: 15px;
+    }
+    
+    .condition {
+        justify-content: flex-start;
+    }
+    
+    .submit-btn-sec {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .form-b {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    .form-b p {
+        font-size: 14px;
+    }
+    
+    .description-field {
+        display: block;
+        height: 260px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    
+    .description-field>textarea {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        line-height: 1.3em;
+        border-width: 0;
+        appearance: none;
+        border: none;
+        outline: none;
+        user-select: none;
+    }
+    
+    input#file-upload-button {
+        display: none!important;
+    }
